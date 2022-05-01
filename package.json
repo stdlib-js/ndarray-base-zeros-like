@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-zeros-like",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create a zero-filled ndarray having the same shape and data type as a provided ndarray.",
   "license": "Apache-2.0",
   "author": {
