@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-buffer": "^0.1.1",
-    "@stdlib/ndarray-base-dtype": "github:stdlib-js/ndarray-base-dtype#main",
+    "@stdlib/ndarray-base-dtype": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
-    "@stdlib/ndarray-base-order": "github:stdlib-js/ndarray-base-order#main",
-    "@stdlib/ndarray-base-shape": "github:stdlib-js/ndarray-base-shape#main",
+    "@stdlib/ndarray-base-order": "^0.1.0",
+    "@stdlib/ndarray-base-shape": "^0.1.0",
     "@stdlib/ndarray-base-shape2strides": "^0.1.1",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
