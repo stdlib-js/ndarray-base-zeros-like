@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-zeros-like
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@esm/index.mjs';
+var zerosLike = require( '@stdlib/ndarray-base-zeros-like' );
 ```
 
 #### zerosLike( x )
@@ -60,7 +78,7 @@ import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-
 Creates a zero-filled ndarray having the same shape and [data type][@stdlib/ndarray/dtypes] as a provided ndarray.
 
 ```javascript
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@esm/index.mjs';
+var zeros = require( '@stdlib/ndarray-base-zeros' );
 
 var x = zeros( 'float64', [ 2, 2 ], 'row-major' );
 // returns <ndarray>
@@ -96,18 +114,13 @@ var sh = y.shape;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@esm/index.mjs';
-import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@esm/index.mjs';
+```javascript
+var dtypes = require( '@stdlib/ndarray-dtypes' );
+var zeros = require( '@stdlib/ndarray-base-zeros' );
+var zerosLike = require( '@stdlib/ndarray-base-zeros-like' );
 
 // Get a list of data types:
-var dt = dtypes();
+var dt = dtypes( 'numeric' );
 
 // Generate zero-filled arrays...
 var x;
@@ -118,10 +131,6 @@ for ( i = 0; i < dt.length; i++ ) {
     y = zerosLike( x );
     console.log( y.data );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -160,7 +169,7 @@ for ( i = 0; i < dt.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -223,15 +232,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-zeros-like/main/LICENSE
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor/tree/esm
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/esm
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/base/zeros]: https://github.com/stdlib-js/ndarray-base-zeros/tree/esm
+[@stdlib/ndarray/base/zeros]: https://github.com/stdlib-js/ndarray-base-zeros
 
 <!-- </related-links> -->
 
