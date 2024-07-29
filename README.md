@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-zeros-like/tags). For example,
+
+```javascript
 import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@v0.3.0-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ var sh = y.shape;
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@esm/index.mjs';
-import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@v0.3.0-esm/index.mjs';
+import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros-like@esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes( 'numeric' );
