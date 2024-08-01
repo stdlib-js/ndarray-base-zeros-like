@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-buffer": "^0.2.1",
+    "@stdlib/ndarray-base-buffer": "^0.3.0",
     "@stdlib/ndarray-base-dtype": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
     "@stdlib/ndarray-base-order": "^0.2.2",
@@ -49,8 +49,8 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.1",
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex128": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-int16": "^0.2.2",
@@ -65,8 +65,8 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/ndarray-array": "^0.2.1",
     "@stdlib/ndarray-base-ctor": "^0.2.2",
-    "@stdlib/ndarray-base-zeros": "^0.2.1",
-    "@stdlib/ndarray-ctor": "^0.2.1",
+    "@stdlib/ndarray-base-zeros": "^0.3.0",
+    "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.2",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.1",
