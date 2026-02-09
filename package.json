@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-buffer": "^0.3.0",
+    "@stdlib/ndarray-base-buffer": "^0.3.1",
     "@stdlib/ndarray-base-dtype": "^0.2.3",
     "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/ndarray-base-order": "^0.2.3",
@@ -61,11 +61,11 @@
     "@stdlib/array-uint8": "^0.2.3",
     "@stdlib/array-uint8c": "^0.2.3",
     "@stdlib/assert-instance-of": "^0.3.1",
-    "@stdlib/assert-is-ndarray-like": "^0.2.2",
+    "@stdlib/assert-is-ndarray-like": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.1",
-    "@stdlib/ndarray-array": "^0.2.2",
+    "@stdlib/ndarray-array": "^0.2.3",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
-    "@stdlib/ndarray-base-zeros": "^0.3.0",
+    "@stdlib/ndarray-base-zeros": "^0.3.1",
     "@stdlib/ndarray-ctor": "^0.3.1",
     "@stdlib/ndarray-dtypes": "^0.4.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.3",
