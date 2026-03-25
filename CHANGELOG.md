@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-24)
+## Unreleased (2026-03-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f759b2b`](https://github.com/stdlib-js/stdlib/commit/f759b2b5ed4db16f35f0544fb65ed38a957f9f7b) - **refactor:** remove overloads and use generic _(by Athan Reines)_
 -   [`f44463a`](https://github.com/stdlib-js/stdlib/commit/f44463a257a9c70c3b0baa84168bcb1f10cd438e) - **docs:** update examples and docs to accommodate dtype instances _(by Athan Reines)_
 
 </details>
