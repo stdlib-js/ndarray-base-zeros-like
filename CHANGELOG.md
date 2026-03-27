@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-25)
+## Unreleased (2026-03-27)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`762f410`](https://github.com/stdlib-js/stdlib/commit/762f410098b29afa3823ab1191553101db0dcead) - correct grammar in ndarray type test comments [(#11154)](https://github.com/stdlib-js/stdlib/pull/11154)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#11152](https://github.com/stdlib-js/stdlib/issues/11152)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`762f410`](https://github.com/stdlib-js/stdlib/commit/762f410098b29afa3823ab1191553101db0dcead) - **fix:** correct grammar in ndarray type test comments [(#11154)](https://github.com/stdlib-js/stdlib/pull/11154) _(by Matt Van Horn)_
 -   [`f759b2b`](https://github.com/stdlib-js/stdlib/commit/f759b2b5ed4db16f35f0544fb65ed38a957f9f7b) - **refactor:** remove overloads and use generic _(by Athan Reines)_
 -   [`f44463a`](https://github.com/stdlib-js/stdlib/commit/f44463a257a9c70c3b0baa84168bcb1f10cd438e) - **docs:** update examples and docs to accommodate dtype instances _(by Athan Reines)_
 
@@ -25,9 +48,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Matt Van Horn
 
 </section>
 
