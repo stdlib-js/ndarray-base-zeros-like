@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -16,37 +16,45 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ComplexLike } from '@stdlib/types/complex';
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Create a zero-filled ndarray having the same shape and data type as a provided ndarray.
+* Creates a zero-filled ndarray having the same shape and data type as a provided input ndarray.
 *
-* @module @stdlib/ndarray-base-zeros-like
+* @param x - input array
+* @returns zero-filled ndarray
 *
 * @example
 * var getShape = require( '@stdlib/ndarray-shape' );
 * var getDType = require( '@stdlib/ndarray-dtype' );
 * var zeros = require( '@stdlib/ndarray-base-zeros' );
-* var zerosLike = require( '@stdlib/ndarray-base-zeros-like' );
 *
-* var x = zeros( 'float32', [ 2, 2 ], 'row-major' );
+* var x = zeros( 'float64', [ 2, 2 ], 'row-major' );
 * // returns <ndarray>[ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ]
+*
+* var sh = getShape( x );
+* // returns [ 2, 2 ]
+*
+* var dt = String( getDType( x ) );
+* // returns 'float64'
 *
 * var y = zerosLike( x );
 * // returns <ndarray>[ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ]
 *
-* var sh = getShape( y );
+* sh = getShape( y );
 * // returns [ 2, 2 ]
 *
-* var dt = String( getDType( y ) );
-* // returns 'float32'
+* dt = String( getDType( y ) );
+* // returns 'float64'
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function zerosLike<T extends typedndarray<number | ComplexLike>>( x: T ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = zerosLike;
